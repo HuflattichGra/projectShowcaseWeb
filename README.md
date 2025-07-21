@@ -1,65 +1,103 @@
 # Project Showcase Web Application
 
-This is an ASP.NET web application project that serves as a showcase platform for academic research and publications.
+A professional ASP.NET web application designed to showcase academic research, publications, and team achievements. This platform serves as a comprehensive portal for research dissemination and academic collaboration.
 
-## Project Structure
+## 🚀 Features
 
-- **ASP.NET Web Pages**: Various `.aspx` files for different functionalities
-  - `index.aspx` - Main landing page
-  - `login.aspx` - User authentication
-  - `register.aspx` - User registration
-  - `People.aspx` - Team member profiles
-  - `publication.aspx` - Research publications
-  - `codeanddata.aspx` - Code and data resources
-  - `Searchengine.aspx` - Search functionality
-  - `pdfread.aspx` - PDF document viewer
+- **User Authentication System**: Secure login and registration functionality
+- **Research Publication Showcase**: Display and manage academic papers and research outputs
+- **Team Member Profiles**: Professional team member directory with photos and information  
+- **Document Management**: PDF viewing and document sharing capabilities
+- **Advanced Search**: Intelligent search functionality across all content
+- **Code & Data Sharing**: Platform for sharing research code and datasets
 
-- **Database Connection**: `CommDB.cs` - Database connectivity and operations
+## 📁 Project Structure
 
-- **Resources**:
-  - `image/` - Image assets including team photos and icons
-  - `materials/` - Academic papers, patents, and research documents
+```
+zntx/
+├── src/Pages/          # Web application pages
+│   ├── Auth/          # Authentication (login, register)
+│   └── Content/       # Content pages (people, publications, code)
+├── src/Data/          # Data access layer
+├── assets/            # Static resources (images, documents)
+├── config/            # Configuration files
+├── database/          # Database files
+└── docs/             # Project documentation
+```
 
-## Features
+For detailed structure information, see [docs/PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md)
 
-- User authentication and registration system
-- Research publication showcase
-- Team member profiles
-- Document and code sharing
-- Search functionality
-- PDF document viewing
+## 🛠️ Technology Stack
 
-## Technology Stack
+- **Backend**: ASP.NET Web Forms, C#
+- **Database**: SQL Server
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Package Management**: NuGet, LibMan
 
-- ASP.NET Web Forms
-- C# backend
-- SQL Server database
-- HTML/CSS/JavaScript frontend
+## 🎯 Research Focus Areas
 
-## Setup and Installation
+- Hyperspectral Image Classification
+- 3D Mesh Model Digital Watermarking
+- Virtual Reality and Simulation Technology
+- Educational Technology Innovation
+- Online Learning Resource Recommendation Systems
 
-1. Clone this repository
-2. Open the solution in Visual Studio
-3. Configure the database connection in `web.config`
-4. Build and run the project
+## 📚 Academic Resources
 
-## Research Focus
+The platform includes comprehensive research materials:
+- Research papers and publications
+- Patent documents
+- Software copyright certificates
+- Technical documentation
+- Video demonstrations
 
-The project appears to focus on:
-- Hyperspectral image classification
-- 3D mesh model watermarking
-- Virtual reality and simulation
-- Educational technology innovation
-- Online learning resource recommendation
+## ⚡ Quick Start
 
-## Academic Publications
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/HuflattichGra/projectShowcaseWeb.git
+   cd projectShowcaseWeb
+   ```
 
-The materials folder contains various research papers and patents related to:
-- Computer vision and image processing
-- 3D graphics and modeling
-- Educational technology
-- Software development
+2. **Open in Visual Studio**
+   - Open `zntx.sln` in Visual Studio
+   - Restore NuGet packages
 
-## License
+3. **Configure Database**
+   - Update connection string in `config/web.config`
+   - Ensure SQL Server is running
 
-This project is for academic and research purposes.
+4. **Build and Run**
+   - Build the solution (Ctrl+Shift+B)
+   - Start debugging (F5)
+
+## 🔧 Configuration
+
+- **Database**: Configure connection strings in `config/web.config`
+- **Static Files**: Add images to `assets/images/`, documents to `assets/documents/`
+- **Pages**: Add new pages to appropriate folders under `src/Pages/`
+
+## 📖 Documentation
+
+- [Project Structure](docs/PROJECT_STRUCTURE.md) - Detailed file organization
+- [Development Guidelines](docs/PROJECT_STRUCTURE.md#development-guidelines) - Best practices
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed for academic and research purposes.
+
+## 👥 Team
+
+Visit the [People page](src/Pages/Content/People.aspx) to learn more about our research team.
+
+---
+
+**Note**: This is an academic research platform. For questions or collaboration opportunities, please contact the research team through the platform.
