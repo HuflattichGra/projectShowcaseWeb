@@ -1,0 +1,47 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+
+# NuGet
+packages/
+*.nupkg
+**/packages.lock.json
+
+# Visual Studio cache files
+*.cache
+*.tmp
+*.log
+
+# Application specific
+App_Data/*.mdf
+App_Data/*.ldf
+
+# Temporary files
+*~
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+.DS_Store
